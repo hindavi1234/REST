@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: maroon;
+}
+.post{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 350px;
+    padding: 6px 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px double maroon;
+    box-sizing: border-box;
+    /* flex: 1 1 25%; */
+}
+.postss{
+    background-color: blanchedalmond;
+    height: 150px;
+    width: 350px;
+    padding: 6px 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 2px double maroon;
+    box-sizing: border-box;
+    /* flex: 1 1 25%; */
+}
+.post1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:start;
+    align-items:flex-start;
+}
+.username
+{
+    font-style: italic;
+    color: rgb(5, 5, 5);
+    margin-bottom: 10px;
+}
